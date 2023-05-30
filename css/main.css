@@ -21,8 +21,39 @@ h6 {
 }
 
 img {
-  width: 100%;
+  width: 500px;
+
 }
+
+body {
+  color: rgb(0, 0, 0);
+}
+
+a {
+  color: rgb(0, 0, 0);
+}
+
+.container,
+.main-nav ul li a {
+  background-color: #fff;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.container[role="main"],
+.main-nav ul li a[role="link"],
+form input[role="textbox"],
+form textarea[role="textbox"],
+form button[role="button"],
+.site-footer[role="contentinfo"] 
 
 .main-nav ul {
   list-style: none;
@@ -30,9 +61,11 @@ img {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 
 .main-nav ul li {
+  list-style: none;
   flex: 1;
   text-align: center;
 }
