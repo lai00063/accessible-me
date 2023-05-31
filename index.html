@@ -14,9 +14,9 @@
 
 <body>
   <div class="container">
-    <div class="site-header">
+    <div class="site-header" role="header">
       <h1>Jam Box Studios</h1>
-      <nav class="main-nav">
+      <nav class="main-nav" role="nav">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
@@ -26,17 +26,17 @@
       </nav>
       <img src="https://placekitten.com/1200/900" class="banner">
     </header>
-    <main class="main-content">
+    <main class="main-content" role="main">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      <section class="owner">
-        <h2>Meet the owner</h1>
+      <section class="owner" itemprop itemtype="http://schema.org/organization">
+        <h2>Meet the owner</h2>
         <ul>
-          <li>Name: John Doe</li>
-          <li>Title: CEO</li>
-          <li>Email: johnjoe@jambox.ca</li>
-          <li>Phone: 613-000-0000</li>
+          <li itemprop="name">Name: John Doe</li>
+          <li itemprop="job title">Title: CEO</li>
+          <li itemprop="email">Email: johnjoe@jambox.ca</li>
+          <li itemprop="phone">Phone: 613-000-0000</li>
         </ul>
         <h2>Address</h2>
         <address>
@@ -58,10 +58,10 @@
           <button type="submit">Send</button>
         </form>
       </section>
-    </div>
-    <div class="site-footer">
+    </main>
+    <footer class="site-footer">
       &copy; 2021 Jam Box Studios
-    </div>
+    </footer>
   </div>
 </body>
 

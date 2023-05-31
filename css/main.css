@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
 }
@@ -47,13 +47,6 @@ a {
   overflow: hidden;
   z-index: -1;
 }
-
-.container[role="main"],
-.main-nav ul li a[role="link"],
-form input[role="textbox"],
-form textarea[role="textbox"],
-form button[role="button"],
-.site-footer[role="contentinfo"] 
 
 .main-nav ul {
   list-style: none;
